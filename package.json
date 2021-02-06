@@ -1,0 +1,46 @@
+{
+  "name": "chat-on-socket",
+  "version": "1.0.0",
+  "description": "Chat on socket Task RSSchool",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "serve": "webpack serve --mode development --open",
+    "start": "nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GusOdd/chat-on-socket.git"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Dennis Paretzky <gus@dynama.by>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GusOdd/chat-on-socket/issues"
+  },
+  "homepage": "https://github.com/GusOdd/chat-on-socket#readme",
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "eslint": "^7.19.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-webpack-plugin": "^2.4.3",
+    "html-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^1.3.5",
+    "webpack": "^5.20.1",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.7",
+    "socket.io": "^3.1.1",
+    "socket.io-client": "^3.1.1"
+  }
+}
